@@ -20,6 +20,7 @@ public class K4Player
 	public RankData? rankData { get; set; }
 	public StatData? statData { get; set; }
 	public TimeData? timeData { get; set; }
+	//* optimize */
 	public (int killStreak, DateTime lastKillTime) KillStreak = (0, DateTime.MinValue);
 
 	public K4Player(CCSPlayerController playerController)
